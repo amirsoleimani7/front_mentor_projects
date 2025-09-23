@@ -9,6 +9,7 @@ body{
     height: 500px;
     border-radius: 20px;
     text-align: center;
+    box-shadow: 5px 5px 20px #68778D;
 
 
     /* centering in the middle of the page */
