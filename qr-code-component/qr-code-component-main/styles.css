@@ -6,12 +6,12 @@ body{
     
     background-color: white;
     width: 320px;
-    height: 500px;
+    height: 499px;
     border-radius: 20px;
     text-align: center;
     box-shadow: 5px 5px 20px #68778D;
 
-
+    padding-bottom: 40px;
     /* centering in the middle of the page */
     position: absolute;
     margin: auto;
@@ -23,12 +23,9 @@ body{
 
 img{
     margin-top: 16px;
-    margin-left: 16px;
-    margin-right: 16px;
     margin-bottom: 24px;
     width: 288px;
     height: 288px;
-
     border-radius: 10px;
 }
 
@@ -43,8 +40,7 @@ img{
 }
 
 #text2{
-    margin-top: 0px;
-    margin-bottom: 40px;
+    margin-top: 0px; 
     margin-right: 16px;
     margin-left: 16px;
     font-family: Outfit;
@@ -52,4 +48,5 @@ img{
     font-weight: normal;
     line-height: 140%;
     letter-spacing: 0.2px;
+    
 }
