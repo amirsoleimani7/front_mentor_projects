@@ -104,3 +104,10 @@ body {
     line-height: 150%;
     letter-spacing: 0px;
 }
+
+.card:hover{
+    #title{
+        color: #F4D04E;
+    } 
+    cursor: url('assets/images/Pointer.ico') ,default;    
+}
