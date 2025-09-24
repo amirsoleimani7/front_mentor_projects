@@ -1,3 +1,80 @@
 body {
-    background-color: ;
+    background-color: #F4D04E;
 }
+
+.card {
+    background-color: white;
+    width: 384px;
+    height: 522px;    
+    border: 1px solid; 
+    border-radius: 20px;
+    box-shadow: 7px 7px #111111;
+
+    padding: 24px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+#blog_image {
+    height: 200px;  
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+#category{ 
+    background-color: #F4D04E;
+    border-radius: 4px;
+
+    color: #111111;
+    font-family: 'figtree';
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0px;
+
+
+}
+
+#published-date {
+    
+    color: #111111;
+    font-family: 'figtree';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0px;
+
+}
+#title {
+    color: #111111;
+    font-family: 'figtree';
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+#description {    
+    color: #6B6B6B;
+    font-family: 'figtree';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.author #author-name {
+    color: #111111;
+    font-family: 'figtree';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0px;
+    
+}
+
+
