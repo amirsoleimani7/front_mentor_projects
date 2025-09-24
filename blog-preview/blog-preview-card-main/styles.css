@@ -5,37 +5,48 @@ body {
 .card {
     background-color: white;
     width: 384px;
-    height: 522px;    
+    /* height: 522px;     */
     border: 1px solid; 
     border-radius: 20px;
     box-shadow: 7px 7px #111111;
-
-    padding: 24px;
-
+    
+    /* centering in middle of the page*/
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
+    padding-bottom: 24px;
 }
 
 #blog_image {
     height: 200px;  
-    width: 100%;
     border-radius: 10px;
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+
 }
 
+.content {
+    margin: 24px;
+}  
 
 #category{ 
+
     background-color: #F4D04E;
     border-radius: 4px;
-
     color: #111111;
     font-family: 'figtree';
-    font-size: 24px;
+    font-size: 14px;
     font-weight: 800;
     line-height: 150%;
     letter-spacing: 0px;
 
+    height: 29px;
+    width: 82px;
+
+    text-align: center;
+    padding-top:7px;
 
 }
 
@@ -47,8 +58,8 @@ body {
     font-weight: 500;
     line-height: 150%;
     letter-spacing: 0px;
-
 }
+
 #title {
     color: #111111;
     font-family: 'figtree';
@@ -65,16 +76,31 @@ body {
     font-weight: 500;
     line-height: 150%;
     letter-spacing: 0px;
+    margin-bottom: 24px;
 }
+
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-left:24px;
+    margin-bottom:24px;
+    height: 32px;    
+    gap: 12px ;
+}
+
+.author #author_image {
+    width: 32px;
+    height: 32px;
+}
+
 
 .author #author-name {
+    
     color: #111111;
     font-family: 'figtree';
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 800;
     line-height: 150%;
     letter-spacing: 0px;
-    
 }
-
-
